@@ -59,7 +59,7 @@
     <div class="flex flex-col items-center p-4">
       <img id="imageDisplay" src="./images/image1.gif" alt="Cute kitten with flowers" class="rounded-md h-[300px]" style="object-fit: cover;" />
       <h2 id="valentineQuestion" class="text-4xl font-bold italic text-[#bd1e59] my-4">
-        ✨ Genesis , ¿me harías el chico más feliz siendo mi San Valentín? 💘
+        ¿Quieres ser  mi San Valentín? 💘
       </h2>
       <div class="flex gap-4 pt-[20px] items-center" id="responseButtons">
         <button id="yesButton"
@@ -121,7 +121,7 @@
   
     yesButton.addEventListener('click', () => {
       imageDisplay.src = './images/image7.gif'; // Change to image7.gif
-      valentineQuestion.textContent = "Eres mi mejor regalo, mi San Valentín perfecto. 💕 Con cariño, Gerson 🌹";
+      valentineQuestion.textContent = "¡Gracias por aceptarme! 💖"; // Change question text
 
       responseButtons.style.display = 'none'; // Hide both buttons
       confetti(); // Trigger confetti animation
